@@ -8,4 +8,4 @@ docker pull ideath/node-fabric
 docker run --rm -it -v "$PWD:/usr/src" ideath/node-fabric fab --version
 
 3. Or you can add in your .bashrc file:  
-alias fab='docker run --rm -it -v "$PWD:/usr/src" death/node-fabric fab'
+alias fab='docker run --rm -it -v "$PWD:/usr/src" ideath/node-fabric fab'
